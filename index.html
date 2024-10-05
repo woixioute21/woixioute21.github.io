@@ -1,16 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Stylish GitHub Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>Hello Github Pages</h1>
-    <script src="./index.js"></script>
-</body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Welcome to My Portfolio</h1>
+      <p>挖草你怎麼找到這行的</p>
+      <a href="#about" class="btn-primary">Learn More</a>
+    </div>
+  </header>
 
+  <!-- Content Blocks -->
+  <section id="about" class="content-section">
+    <h2>About Me</h2>
+    <p>There is nothing about me.</p>
+  </section>
+
+  <section id="projects" class="content-section">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <!-- Cards for individual projects -->
+      <div class="project-card">
+        <img src="assets/images/project1.png" alt="Project 1">
+        <h3>Radish Knife</h3>
+        <p>Really dangerous.</p>
+      </div>
+      <div class="project-card">
+        <img src="assets/images/project2.png" alt="Project 2">
+        <h3>Sorting</h3>
+        <p>Compilicated algorithm.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Dryer</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
